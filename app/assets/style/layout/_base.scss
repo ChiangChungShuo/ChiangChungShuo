@@ -1,0 +1,31 @@
+*,*::after,*::before{
+    line-height: 1.5;
+  }
+  body {
+    font-family: 'Noto Sans TC', 'Roboto', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, span, p, ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle !important;
+    object-fit: cover;
+  }
+  
+  ul,ol{
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  a, button {
+    background: none;
+    border: none;
+    padding: 0;
+  }
